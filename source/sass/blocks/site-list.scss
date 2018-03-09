@@ -1,0 +1,27 @@
+.site-list {
+  @include list-reset;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site__link--logo {
+  width: 23px;
+  height: 15px;
+}
+
+.site__item {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.site__link {
+  color: #ffffff;
+  font-size: 18px;
+}

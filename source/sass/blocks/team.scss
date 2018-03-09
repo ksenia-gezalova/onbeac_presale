@@ -1,0 +1,45 @@
+.team {
+  background-color: $color_blue;
+  background-image: url("../img/arrow-right.png");
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+
+.team__title {
+  color: #ffffff;
+  font-size: 48px;
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.team__photo {
+  width: 158px;
+  height:158px;
+  margin-right: 15px;
+}
+
+.team__list {
+  @include list-reset;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.team__item {
+  width:345px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+} 
+
+.team__wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.team__name {
+  font-size: 14px;
+}

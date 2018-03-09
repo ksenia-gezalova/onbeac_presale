@@ -1,0 +1,70 @@
+.description {
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  
+  &::before {
+    content: "";
+    width: 365px;
+    height: 413px;
+    background-image: url("../img/hex-group.png");
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    top: -115px;
+  }
+}
+
+.description__list {
+  @include list-reset;
+  font-weight: bold;
+  position: relative;
+}
+
+.description__text {
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.description__item {
+  width: 400px;
+}
+
+.description__item--mission {
+  display: block;
+  position: absolute;
+  left: 40%;
+  top: 0;
+}
+
+.description__item--blockchain {
+  margin-left: 260px;
+  margin-top: 90px;
+  position: relative;
+  
+  &::before {
+    content: "";
+    width: 109px;
+    height: 79px;
+    background-image: url("../img/blockchain.png");
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -70px;
+    top: -60px;
+  }
+}
+  
+  .description__item--ingen {
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+  }
+
+.description__text img {
+  width: 47px;
+  height: 25px;
+}

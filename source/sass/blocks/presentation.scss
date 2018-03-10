@@ -1,7 +1,8 @@
 .presentation {
-  background-color: $color_blue;
+  //background-color: #178686;
   padding-top: 76px;
-  background-image: url("../img/overlay-line.png");
+  background-image: url("../img/overlay-line.png"),
+  url("../img/hex-group.png");
   background-repeat: no-repeat;
 }
 
@@ -16,6 +17,7 @@
   justify-content: center;
   margin-top: 60px;
   padding-bottom: 60px;
+  position: relative;
 }
 
 .presentation__video {

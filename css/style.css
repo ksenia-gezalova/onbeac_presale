@@ -104,7 +104,8 @@ a {
 .presale {
   background-color: #15161a;
   padding-top: 43px;
-  padding-bottom: 34px; }
+  padding-bottom: 34px;
+  background-image: url("../img/overlay-hex.png"); }
 
 .presale__title {
   color: #ffffff;
@@ -391,3 +392,43 @@ a {
 .footer__logo {
   width: 300px;
   height: 135px; }
+
+.footer {
+  color: #ffffff;
+  padding-bottom: 100px;
+  width: 1180px;
+  margin: 0 auto;
+  margin-top: 100px; }
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.social__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 298px;
+  height: 180px; }
+
+.social__img {
+  position: absolute;
+  height: 25px;
+  width: 28px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%); }
+
+.social__item {
+  position: relative;
+  background-color: #20bcbc;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px; }
+  .social__item:hover {
+    opacity: 0.7; }

@@ -1,8 +1,7 @@
 .presentation {
-  //background-color: #178686;
+  background-color: rgb(23, 134, 134);
   padding-top: 76px;
-  background-image: url("../img/overlay-line.png"),
-  url("../img/hex-group.png");
+  background-image: url("../img/overlay-line.png");
   background-repeat: no-repeat;
 }
 
@@ -45,14 +44,14 @@
   margin-left: 80px;
   color: #ffffff;
   margin-top: 10px;
-  
+
   a {
     display: block;
     margin-left: 8px;
     color: #ffffff;
     text-decoration: underline;
   }
-  
+
   a:hover {
     color: dimgray;
   }
@@ -69,7 +68,7 @@
   font-weight: bold;
   display: flex;
   justify-content: center;
-  
+
   &::after {
     content: "";
     width: 15px;

@@ -3,7 +3,9 @@
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative;
-  
+  background-image: url("../img/overlay-hex.png"),
+    url("../img/overlay-bubbles.png");
+
   &::before {
     content: "";
     width: 365px;
@@ -14,8 +16,9 @@
     position: absolute;
     right: 60px;
     top: -115px;
+    clip: rect(114px,auto,auto,auto);
   }
-  
+
   &::after {
     content: "";
     width: 521px;
@@ -57,7 +60,7 @@
   margin-left: 260px;
   margin-top: 90px;
   position: relative;
-  
+
   &::before {
     content: "";
     width: 109px;
@@ -70,7 +73,7 @@
     top: -60px;
   }
 }
-  
+
   .description__item--ingen {
     position: absolute;
     right: 20px;
